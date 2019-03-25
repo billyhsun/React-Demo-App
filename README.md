@@ -1,4 +1,4 @@
-# Hatchways Front-end Assessment: React Demo Application
+# React Demo Application
 
 ## Setup
 
