@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+	--main-bg-color: #dcdcdc;
+	--shadow-color: #d3d3d3;
+}
+
+body {
+	background-color: var(--main-bg-color);
+}
+
+.StudentList {
+	background-color: white;
+	overflow: auto;
+	height: 80vh;
+	width: 60%;
+	border: 1px solid var(--shadow-color);
+	margin: 5rem auto;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px 1px var(--shadow-color);
+}
+
+.StudentList::-webkit-scrollbar {
+	display: none;
+}
+
+.card {
+	border-bottom: 1px solid var(--shadow-color);
+	display: flex;
+	position: relative;
+}
+
+img {
+	margin: auto 10px;
+	height: 120px;
+	width: 120px;
+	border: 1px solid var(--shadow-color);
+	border-radius: 120px;
+}
+.stuName {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 0;
+}
+.inforBox {
+	margin: 0.8rem;
+}
+.stuInfo {
+	margin: 1px;
+	color: #808080;
+	font-family: "Raleway", sans-serif;
+}
+
+
+.search-input-container {
+	position: sticky;
+	top: 0;
+	background: white;
+	width: 100%;
+	z-index: 2;
+}
+.search-input {
+	padding: 1rem 1rem 0.5rem 1rem;
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid var(--shadow-color);
+	font-size: medium;
+	font-family: "Raleway", sans-serif;
+	margin: 0 1rem;
+}
+
+input:focus {
+	outline: none;
+}
+.search-input:focus-within {
+	border-bottom: 1px solid black;
+}
+.collapsible {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 800;
+}
+.tag-input {
+	border: none;
+	border-bottom: var(--shadow-color);
+}
+.tag-input:focus-within {
+	border-bottom: 1px solid black;
+}
+
+.tagList {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.tag-box {
+	width: fit-content;
+	padding: 3px 10px;
+	margin: 5px;
+	background-color: var(--main-bg-color);
+	border-radius: 5px;
+}
