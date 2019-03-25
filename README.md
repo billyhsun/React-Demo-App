@@ -1,6 +1,6 @@
 # React Demo Application
 
-Web page made in React and JavaScript to display student information, expand views, add tags, and search by students by names or tags
+Web page made in React and JavaScript to display student information, expand views, add tags, and search students by names or tags
 
 ## Setup
 - Clone the repo to your local machine
